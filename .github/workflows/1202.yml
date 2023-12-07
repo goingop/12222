@@ -1,7 +1,7 @@
 name: Haoyangmao
 on:
   schedule:
-    - cron: '5 */1 * * *' # Run every day at midnight
+    - cron: '25 */1 * * *' # Run every day at midnight
 jobs:
   build:
     runs-on: windows-latest
